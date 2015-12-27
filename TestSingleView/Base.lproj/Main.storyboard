@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Sxp-ui-VWv">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Step Table View Controller-->
+        <scene sceneID="2GI-11-sIp">
+            <objects>
+                <tableViewController id="FeN-8D-krm" customClass="StepTableViewController" customModule="CheckPilot" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="90" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZUZ-Ww-xfY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="StepTableViewCell" rowHeight="90" id="7GI-Bg-H4Q" customClass="StepTableViewCell" customModule="CheckPilot" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7GI-Bg-H4Q" id="ozQ-Qy-Gq9">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jt1-UK-fH1">
+                                            <rect key="frame" x="18" y="18" width="564" height="53"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Jt1-UK-fH1" secondAttribute="trailing" constant="10" id="3aV-1w-APj"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Jt1-UK-fH1" secondAttribute="trailing" constant="20" id="AEI-Dq-pd6"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="top" secondItem="ozQ-Qy-Gq9" secondAttribute="topMargin" constant="10" id="Fm2-nn-Hoi"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Jt1-UK-fH1" secondAttribute="bottom" constant="10" id="K0e-G3-dVu"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="top" secondItem="ozQ-Qy-Gq9" secondAttribute="topMargin" constant="5" id="LcW-W8-lNX"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="leading" secondItem="ozQ-Qy-Gq9" secondAttribute="leadingMargin" constant="10" id="LyL-rH-dNN"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Jt1-UK-fH1" secondAttribute="bottom" constant="20" id="OY5-Ty-utQ"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="top" secondItem="ozQ-Qy-Gq9" secondAttribute="topMargin" constant="20" id="RAX-Z6-aSw"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="leading" secondItem="ozQ-Qy-Gq9" secondAttribute="leadingMargin" constant="10" id="YEC-S6-Aik"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Jt1-UK-fH1" secondAttribute="trailing" constant="10" id="ZFN-SA-Xsk"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="leading" secondItem="ozQ-Qy-Gq9" secondAttribute="leadingMargin" constant="20" id="dIJ-yr-bRI"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Jt1-UK-fH1" secondAttribute="trailing" constant="10" id="dab-eH-KEu"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="top" secondItem="ozQ-Qy-Gq9" secondAttribute="topMargin" constant="10" id="fv0-Ki-vr9"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="top" secondItem="ozQ-Qy-Gq9" secondAttribute="topMargin" constant="10" id="hQI-Ya-XfR"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Jt1-UK-fH1" secondAttribute="bottom" constant="10" id="mLb-vX-f5t"/>
+                                        <constraint firstItem="Jt1-UK-fH1" firstAttribute="leading" secondItem="ozQ-Qy-Gq9" secondAttribute="leadingMargin" constant="20" id="qLz-9A-GvV"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Jt1-UK-fH1" secondAttribute="bottom" constant="10" id="zf6-Lq-rIV"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="3aV-1w-APj"/>
+                                            <exclude reference="AEI-Dq-pd6"/>
+                                            <exclude reference="Fm2-nn-Hoi"/>
+                                            <exclude reference="K0e-G3-dVu"/>
+                                            <exclude reference="LcW-W8-lNX"/>
+                                            <exclude reference="OY5-Ty-utQ"/>
+                                            <exclude reference="RAX-Z6-aSw"/>
+                                            <exclude reference="YEC-S6-Aik"/>
+                                            <exclude reference="ZFN-SA-Xsk"/>
+                                            <exclude reference="dIJ-yr-bRI"/>
+                                            <exclude reference="fv0-Ki-vr9"/>
+                                            <exclude reference="qLz-9A-GvV"/>
+                                            <exclude reference="zf6-Lq-rIV"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="nameLabel" destination="Jt1-UK-fH1" id="ciF-16-jxb"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="FeN-8D-krm" id="75M-Rr-NZY"/>
+                            <outlet property="delegate" destination="FeN-8D-krm" id="37e-vL-0eg"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="R1d-fc-NPf"/>
+                    <connections>
+                        <segue destination="SIO-98-Kc8" kind="show" identifier="segueAddStep" id="HiB-Yb-DYU"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wnM-nU-WKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="899"/>
+        </scene>
+        <!--Checklist Item Adder-->
+        <scene sceneID="FcY-KH-MtZ">
+            <objects>
+                <viewController title="Checklist Item Adder" id="SIO-98-Kc8" customClass="ChecklistItemAddViewController" customModule="CheckPilot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jcw-gy-5sm"/>
+                        <viewControllerLayoutGuide type="bottom" id="OEF-7Y-3mo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BMu-Wi-OwG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SDE-cz-EYG">
+                                <rect key="frame" x="20" y="116" width="99" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Add Before"/>
+                                <connections>
+                                    <action selector="addBeforeClicked:" destination="SIO-98-Kc8" eventType="touchUpInside" id="RlW-rb-MsN"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQz-Et-CgH">
+                                <rect key="frame" x="-37" y="0.0" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Add a Step" id="QmX-Jo-6NT"/>
+                                </items>
+                            </navigationBar>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" selected="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Put new step here" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ahe-aj-Zo6">
+                                <rect key="frame" x="20" y="78" width="240" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4F1-2D-Ev8">
+                                <rect key="frame" x="161" y="116" width="99" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Add After"/>
+                                <connections>
+                                    <action selector="addAfterClicked:" destination="SIO-98-Kc8" eventType="touchUpInside" id="vhI-2S-rZ4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="newStep" destination="Ahe-aj-Zo6" id="CI7-ph-gdg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nSJ-hL-cGb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779" y="899"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IaV-Ig-UUC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sxp-ui-VWv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xfS-pR-tmM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FeN-8D-krm" kind="relationship" relationship="rootViewController" id="DfK-ah-OL4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F2O-Um-7cP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="899"/>
+        </scene>
+    </scenes>
+</document>
